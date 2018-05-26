@@ -2,7 +2,7 @@
 
 ## Singleton Pattern
 
-单例模式非常容易理解，就是只会创建一个对象实例不会重复。单例模式下，只有第一次会创建实例，之后都是创建的对象都指向第一次创建的实例。
+单例模式非常容易理解，就是确保只有一个实例被创建，并提供对该实例的全局访问。
 
 单例模式的目的：
 
@@ -15,7 +15,7 @@
 
 ## Builder Pattern
 
-生成器模式主要用来创建流程一样的对象实例，它的核心在于创建流程一样（结构可以不一样）。
+生成器模式主要用来将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示，它的核心在于创建流程一样。
 
 生成器模式的目的：
 
@@ -56,7 +56,7 @@
 
 ## Prototype Pattern
 
-原型模式就是创建好标准的对象实例作为原型，当需要使用一个对象实例时，直接将相应的原型深度复制一份就可以使用了。
+原型模式就是创建好标准的对象实例作为原型，当需要使用一个对象实例时，直接将相应的原型深度复制一份拿来使用就可以了。
 
 原型模式的目的：
 
@@ -65,3 +65,11 @@
 * 如果创建过程很复杂，可以释放创建时所需的 CPU、内存资源
 
 ![Prototype Pattern](images/prototype-pattern.svg)
+
+## Reference
+
+* https://en.wikipedia.org/wiki/Singleton_pattern
+* https://en.wikipedia.org/wiki/Builder_pattern
+* https://en.wikipedia.org/wiki/Factory_method_pattern
+* https://en.wikipedia.org/wiki/Abstract_factory_pattern
+* https://en.wikipedia.org/wiki/Prototype_pattern
